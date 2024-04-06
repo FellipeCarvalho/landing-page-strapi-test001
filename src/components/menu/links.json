@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_menu_links",
+  "info": {
+    "displayName": "menu_link",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "open_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
